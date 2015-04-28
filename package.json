@@ -1,0 +1,27 @@
+{
+  "name": "guppy-post-update",
+  "version": "0.1.0",
+  "description": "Installs a post-update git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy post-update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealklanni/guppy-post-update.git"
+  },
+  "keywords": [
+    "guppy",
+    "post-update"
+  ],
+  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/guppy-post-update/issues"
+  },
+  "homepage": "https://github.com/therealklanni/guppy-post-update",
+  "dependencies": {
+    "guppy-cli": "^0.2.4"
+  }
+}
